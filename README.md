@@ -1,1 +1,4 @@
 # Mock-ups
+The purpose of this project is to integrate the responsive mockups in HTML and CSS of a company site called Reservia, offering a vacation planning tool. The site will be adapted for desktops, phones, and tablets. According to the design, users will be able to search for accomodations and activities in the cities of their choice. However, at this level the search button will not be functional and the accomodation and activity cards will only be clickable.
+In addition, the filters will not be functional for this version, but will change their appearance when hovered over. 
+Furthermore, the accomodation and activity links are anchors that will lead to sections of the page when clicked on. 
