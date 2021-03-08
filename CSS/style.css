@@ -5,13 +5,21 @@
 .container {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 0.75fr 2fr 0.5fr;
-  margin-left: 30px;
-  margin-right: 30px;
+  grid-template-rows: 0.75fr 2.85fr 0.5fr;
+  margin-left: 50px;
+  margin-right: 12px;
+  border: 1px solid #F2F2F2;
+  width: 1230px;
 }
 
-#color {
-  background-color: teal;
+#move {
+  margin-left: 40px;
+}
+
+#foot {
+  background-color: #F2F2F2;
+  width: 1230px;
+
 }
 
 .containerOne {
@@ -53,7 +61,7 @@ a.class2:visited {
 #title2 {
   color: #0065FC;
   border: 2px solid #0065FC;
-  padding: 30px 8px 30px 8px;
+  padding: 50px 8px 50px 8px;
   border-right-style: none;
   border-bottom-style: none;
   border-left-style: none;
@@ -355,15 +363,16 @@ a.class6:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 530px;
+  height: 535px;
   margin-right: 120px;
-  margin-top: px;
+  margin-left: px;
 }
 
 .containerFiveA {
   background-color: #F2F2F2;
   width: 740px;
-  border-radius: 10px;
+  border-radius: 15px;
+  margin-left: 40px;
 }
 
 #estate {
@@ -428,41 +437,111 @@ a.class6:hover {
 .containerFiveB {
   background-color: #F2F2F2;
   width: 380px;
-  border-radius: 10px;
+  border-radius: 15px;
+  margin-left: 25px;
 }
 
 .containerFiveB1 {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin-top: 15px;
+  margin-left: 22px;
+  margin-right: 22px;
 }
 
 .containerFiveB2 {
   display: grid;
-  grid-template: repeat(3, 135px) / repeat(1, 315px);
+  grid-template: repeat(3, 140px) / repeat(1, 335px);
   grid-gap: 15px;
-  margin-left: 28px;
-  margin-right: 28px;
+  margin-left: 22px;
+  line-height: 2em;
+}
+
+.containerFiveB2A {
+  display: flex;
+  flex-direction: row;
 }
 
 .item5 {
   border-radius: 15px;
+  background-color: white;
 }
 
-#boxA {
+.see {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+#spacing {
+  line-height: 1.5em;
+}
+
+#gap {
+  margin-top: -11px;
+}
+
+.containerSix {
+  margin-left: 40px;
+}
+
+.containerSixA {
+  display: grid;
+  grid-template: repeat(1, 400px) / repeat(4, 264px);
+  grid-gap: 30px;
+}
+
+.item6 {
+  border-radius: 15px;
+} 
+
+.map {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+#size {
+  font-size: 18px;
+  margin-top: 40px;
+}
+
+.containerSixA1 {
+  display: grid;
+  grid-template: repeat(2, 230px 140px) / repeat(1, 264px);
+  grid-gap: 30px;
+}
+
+#cupA {
   background-color: yellow;
 }
 
-#boxB {
-  background-color: tomato;
+#cupB {
+  background-color:greenyellow;
+  border-radius: 15px;
 }
 
-#boxC {
-  background-color: yellowgreen;
+#cupC {
+  background-color: plum;
+  border-radius: 15px;
 }
 
+#cupD {
+  background-color: peachpuff;
+}
+
+#cupE {
+  background-color: powderblue;
+}
+
+.containerSixA2 {
+  display: grid;
+  grid-template: repeat(2, 180px 190px) / repeat(1, 264px);
+  grid-gap: 30px; 
+}
 
 
 
