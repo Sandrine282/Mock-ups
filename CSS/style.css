@@ -9,6 +9,9 @@
   margin-left: 50px;
   margin-right: 12px;
   border: 1px solid #F2F2F2;
+  border-top-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
   width: 1230px;
 }
 
@@ -516,31 +519,50 @@ a.class6:hover {
 }
 
 #cupA {
-  background-color: yellow;
+  background-color: white;
+  box-shadow: 0px 0px 15px #F2F2F2;
 }
 
 #cupB {
-  background-color:greenyellow;
+  background-color:white;
   border-radius: 15px;
+  box-shadow: 0px 0px 15px #F2F2F2;
 }
 
 #cupC {
-  background-color: plum;
+  background-color: white;
   border-radius: 15px;
+  box-shadow: 0px 0px 15px #F2F2F2;
 }
 
 #cupD {
-  background-color: peachpuff;
+  background-color: white;
+  box-shadow: 0px 0px 15px #F2F2F2;
 }
 
 #cupE {
-  background-color: powderblue;
+  background-color: white;
+  box-shadow: 0px 0px 15px #F2F2F2;
 }
 
 .containerSixA2 {
   display: grid;
   grid-template: repeat(2, 180px 190px) / repeat(1, 264px);
   grid-gap: 30px; 
+}
+
+.containerSeven {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.item7 {
+  margin-left: -169px;
+}
+
+.change {
+  margin-left: px;
 }
 
 
