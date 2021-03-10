@@ -378,6 +378,10 @@ a.class6:hover {
   margin-left: 40px;
 }
 
+a.make:link {
+  text-decoration: none;
+}
+
 #estate {
   margin-left: 35px;
   margin-top: 25px;
@@ -424,11 +428,13 @@ a.class6:hover {
 .stay {
   font-size: 14px;
   margin-left: 15px;
+  color: black;
 }
 
 .night {
   font-size: 12px;
   margin-left: 15px;
+  color: black;
 }
 
 
@@ -523,13 +529,13 @@ a.class6:hover {
   box-shadow: 0px 0px 15px #F2F2F2;
 }
 
-#cupB {
+.cupB {
   background-color:white;
   border-radius: 15px;
   box-shadow: 0px 0px 15px #F2F2F2;
 }
 
-#cupC {
+.cupC {
   background-color: white;
   border-radius: 15px;
   box-shadow: 0px 0px 15px #F2F2F2;
@@ -540,10 +546,11 @@ a.class6:hover {
   box-shadow: 0px 0px 15px #F2F2F2;
 }
 
-#cupE {
+#cupD {
   background-color: white;
   box-shadow: 0px 0px 15px #F2F2F2;
 }
+
 
 .containerSixA2 {
   display: grid;
