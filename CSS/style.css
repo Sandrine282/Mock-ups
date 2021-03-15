@@ -362,7 +362,6 @@ flex-direction: row;
 justify-content: space-between;
 height: 535px;
 margin-right: 120px;
-margin-left: px;
 }
 
 .containerFiveA {
@@ -427,6 +426,10 @@ font-size: 12px;
 margin-left: 15px;
 color: black;
 margin-top: -11px;
+}
+
+.long {
+  line-height: 3em;
 }
 
 
@@ -551,16 +554,13 @@ justify-content: space-around;
 margin-left: -169px;
 }
 
-.change {
-margin-left: px;
-}
-
 @media all and (max-device-width: 480px) {
-  .containerOne {
-    display: block;
+  .containerThree {
+    display: flex;
+    flex-direction: column;
   }
 
-  #title4 {
-    float: right;
-  }
+  
+
+  
 } 
